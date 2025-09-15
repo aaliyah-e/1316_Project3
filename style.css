@@ -35,12 +35,16 @@ h3
 
 a:hover {
   background-color: rgb(250, 255, 202);
-  color: #d13f5e;
+  color: #a14b5e;
   font-size: 15px;
 }
 
 a:active {
-  background-color: rgba(255, 119, 187, 0.342);
+  background-color: #d13f5e;
+}
+
+a:link {
+    color: rgba(255, 119, 187, 0.342);
 }
 
 /* nav style */
