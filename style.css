@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+#page-container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 850px;
+    background-color: #FFD4D4;
+}
+
+/* paragraph colors */
+.floatRight > div {
+    color: rgb(156, 68, 119);
+}
+
+.floatLeft > div {
+    color: rgb(61, 145, 65);
+}
+
+/* h3 (fave things) color */
+h3
+{
+    color: rgb(61, 145, 65);
+}
+
+/* floats */
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+a:hover {
+  background-color: rgb(250, 255, 202);
+  color: #d13f5e;
+  font-size: 15px;
+}
+
+a:active {
+  background-color: rgba(255, 119, 187, 0.342);
+}
+
+/* nav style */
+nav {
+    margin-left: 20px;
+    display: block;
+    background-color: #CDE990;
+    padding: 20px;
+    visibility: visible;
+    text-align: center;
+    font-family: "Gowun Dodum", sans-serif;
+    border-top: 6px solid pink;
+    border-bottom: 6px solid pink;
+    border-left: 6px solid pink;
+    border-right: 6px solid pink;
+    box-shadow: 2px 5px 1rem palevioletred;
+}
+
+/* main style */
+main {
+    width: 500px;
+    display: block;
+    background-color: #FFFFE8;
+    text-align: center;
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 13.5px;
+    margin-right: 20px;
+    visibility: visible;
+    padding: 20px;
+    border-top: 6px solid lemonchiffon;
+    border-bottom: 6px solid lemonchiffon;
+    border-left: 6px solid lemonchiffon;
+    border-right: 6px solid lemonchiffon;
+    box-shadow: 2px 5px 1rem rgb(255, 219, 152);
+}
+
+/* stuff inside main */
+main h2 {
+    background-color: #FFEFEF;
+}
+
+/* footer style */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 40px;
+}
+
+/* header style */
+header h1 {
+    text-align: center;
+    color: rgb(233, 89, 137);
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px #7e264359;
+}
+
+
+/* footer style */
+footer p {
+    color: rgb(233, 89, 137);
+}
